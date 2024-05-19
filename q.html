@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Questionnaire</title>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="back-arrow">&#8592;</div>
+      <div class="title">
+        <p>Click to return to the previous page</p>
+        <h1>Health Questionnaire</h1>
+      </div>
+    </header>
+    <form id="questionnaire-form">
+      <fieldset>
+        <legend>Health Conditions</legend>
+        <label><input type="checkbox" name="health-condition" value="diabetes"> Diabetes</label><br>
+        <label><input type="checkbox" name="health-condition" value="hypertension"> Hypertension</label><br>
+        <label><input type="checkbox" name="health-condition" value="obesity"> Obesity</label><br>
+        <label><input type="checkbox" name="health-condition" value="heart-disease"> Heart Disease</label><br>
+        <label><input type="checkbox" name="health-condition" value="celiac"> Celiac Disease</label><br>
+        <label><input type="checkbox" name="health-condition" value="none"> None</label><br>
+        <label><input type="text" name="health-condition-other" placeholder="Other (please specify)"> </label><br>
+      </fieldset>
+      <fieldset>
+        <legend>Allergies</legend>
+        <label><input type="checkbox" name="allergy" value="nuts"> Nuts</label><br>
+        <label><input type="checkbox" name="allergy" value="dairy"> Dairy</label><br>
+        <label><input type="checkbox" name="allergy" value="gluten"> Gluten</label><br>
+        <label><input type="checkbox" name="allergy" value="soy"> Soy</label><br>
+        <label><input type="checkbox" name="allergy" value="shellfish"> Shellfish</label><br>
+        <label><input type="checkbox" name="allergy" value="none"> None</label><br>
+        <label><input type="text" name="allergy-other" placeholder="Other (please specify)"> </label><br>
+      </fieldset>
+      <fieldset>
+        <legend>Dietary Restrictions</legend>
+        <label><input type="checkbox" name="dietary-restriction" value="vegan"> Vegan</label><br>
+        <label><input type="checkbox" name="dietary-restriction" value="vegetarian"> Vegetarian</label><br>
+        <label><input type="checkbox" name="dietary-restriction" value="keto"> Keto</label><br>
+        <label><input type="checkbox" name="dietary-restriction" value="paleo"> Paleo</label><br>
+        <label><input type="text" name="dietary-restriction-other" placeholder="Other (please specify)"> </label><br>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

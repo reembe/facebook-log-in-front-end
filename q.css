@@ -1,0 +1,84 @@
+body {
+  font-family: 'Patrick Hand', cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Background color */
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; /* Container background color */
+  text-align: center; /* Center content */
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-arrow {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center; 
+}
+
+h1 {
+  margin: 0;
+  color: #333;
+  font-size: 32px; 
+}
+
+p {
+  margin-top: 5px;
+  color: #666;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Patrick Hand', cursive;
+}
+
+button:hover {
+  background-color: #0056b3; 
+}
+
+input[type="text"] {
+  margin-top: 5px;
+  padding: 5px;
+  width: calc(100% - 12px);
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
